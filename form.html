@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="mailto: marcel.uchenna.g2o@gmail" method="post" enctype="multipart/form-data" name="text" accept-charset="utf-8" >
+        <fieldset>
+            <legend>Personalia:</legend>
+        <label for="city">Enter City</label><br>
+        <input type="text" name="city" id="city" placeholder="enter your city here" required><br><br>
+        <input type="date" required><br><br>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="gender1">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="gender2">Female</label><br><br>
+        <input type="range" required>
+        <input type="submit" value="submit"><br><br>
+        <input type="number" required><br><br>
+        <input type="email"><br><br>
+        <input type="datetime"><br><br>
+        <input type="file"><br><br>
+        <label for="country">Country</label><br>
+        <select name="country" id="country" size="1">
+            <option value=""></option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Ghana" selected>Ghana</option>
+        <option value="Senegal">Senegal</option>
+        <option value="Cote d' Ivoire">Cote d' Ivoire</option>
+        </select><br>
+        
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+
+        </datalist>
+
+
+
+        <input type="password" name="" id="">
+
+        <input type="submit" value="Submit">
+        <button type="submit" onclick="alert('Hello World!')">Submit</button>
+        <input type="reset" value="Reset">
+    </fieldset>
+        <option value=""></option>
+        <label for="textarea">Essay:</label><br>
+        <textarea name="message" style="height: 200px; width: 600px;" placeholder="Write your essay here"></textarea>
+        
+        
+        
+        
+        
+        
+        
+
+    </form>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" name="b" id="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit" name="" id="">
+
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>S/
+                    N</th>
+                <th>NAME</th>
+                <th>SIGN IN</th>
+                <th>SIGN OUT</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>11:30</td>
+                <td>1:20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Uruchi</td>
+                <td>10:20</td>
+                <td>12:00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>James</td>
+                <td>9:30</td>
+                <td>2:00</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Junior</td>
+                <td>11:25</td>
+                <td>1:30</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S/N</th>
+                <th>NAME</th>
+                <th>SIGN IN</th>
+                <th>SIGN OUT</th>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
